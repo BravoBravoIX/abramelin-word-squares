@@ -39,7 +39,7 @@ If a square was composed to be symmetric, a cell that breaks the symmetry in one
 
 - *Kollatsch* edited the whole text from W1 (2020; 2nd revised ed. 2021), listed 28 copies (2021b), and published figures of all 257 squares of W1, with a few of his conjectures, open access under CC BY-NC-ND 4.0 (2021a). In W1 the squares are written as sequences of letter groups ("Polygrammfolgen") in the running text, from which he put the squares together. In his introduction he writes that the squares' symmetries "proved a helpful means of emendation" for W1's slips (2020/2021, p. XV), and in the deposit that "not all symmetrical errors can be corrected". *The idea tested here is his.* His apparatus gives variants from three other copies (Wellcome MS 821, Leipzig Cod. mag. 15 and Vienna Cod. 10580), as a rule only where two of the three agree against W1; it is not a full collation of the squares, and a promised second volume on the textual tradition had not appeared by 20 October 2026.
 - *Mathers* (1898; 2nd ed. 1900) translated the French copy, Paris, Bibliothèque de l'Arsenal, MS 2351, with 242 squares, many only partly filled.
-- *Dehn* (2001; English translation by Guth, 2006, revised 2015) published a text from several younger copies with every square filled, without a critical apparatus of the squares. *Peterson* published a digital edition of Mathers with variants from Dehn, and *Asprem* (2016) discussed the squares as a cognitive device. None of these collates the squares or measures the symmetry method.
+- *Dehn* (2001; English translation by Guth, 2006, revised 2015) published a text from several younger copies with every square filled, without a critical apparatus of the squares. *Peterson* published a digital edition of Mathers with variants from Dehn, and None of these collates the squares or measures the symmetry method.
 
 = Sources and data
 
@@ -153,7 +153,6 @@ This study rests on the work of Rick-Arne Kollatsch, whose edition and openly pu
 #set par(hanging-indent: 1.2em, justify: false)
 #set text(size: 9.5pt)
 
-Asprem, E. (2016). Reverse-engineering "esotericism": how to prepare esoteric discourse for cognitive research. _Religion_ 46(2).
 
 Bogdan, H. (2016). Review of G. Dehn, _The Book of Abramelin_. _Correspondences_ 4.
 

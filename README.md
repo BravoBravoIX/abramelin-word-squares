@@ -285,8 +285,7 @@ This study stands on the work of others:
   2015) published a German text from several younger copies with all squares filled; it has no
   critical apparatus of the squares (some variants are given in endnotes). We did not use it (copyright; not read).
 - **Joseph H. Peterson** (Esoteric Archives) published a digital edition of Mathers with
-  variants from Dehn; **Egil Asprem** (2016) discussed the squares as a mnemonic and cognitive
-  device. Neither collates the squares.
+  variants from Dehn. It does not collate the squares.
 
 What this study adds, as far as our search found (web, GitHub, KCWorks; Zenodo's search could
 not be reached; 20 October 2026):
@@ -406,8 +405,6 @@ API client and is not included.
 - Joseph H. Peterson (ed.), *The Book of the Sacred Magic of Abramelin the Mage*, digital
   edition with variants from Dehn, Esoteric Archives (esotericarchives.com), updated
   7 December 2025.
-- Egil Asprem, "Reverse-engineering 'esotericism': how to prepare esoteric discourse for
-  cognitive research", *Religion* 46.2 (2016).
 - Henrik Bogdan, review of Dehn, *The Book of Abramelin*, *Correspondences* 4 (2016).
 - Sture Holm, "A simple sequentially rejective multiple test procedure", *Scandinavian Journal of
   Statistics* 6 (1979), 65–70.
