@@ -25,8 +25,7 @@ toward".
 
 October 2026. CPU only; Python with numpy and scipy. The analysis reruns in about five minutes.
 
-**Archived on Zenodo** with its paper, code, data and results: [doi:10.5281/zenodo.23495004](https://doi.org/10.5281/zenodo.23495004)
-(to be added when the first release is archived; see How to cite at the end).
+**Archived on Zenodo** with its paper, code, data and results: [doi:10.5281/zenodo.23495004](https://doi.org/10.5281/zenodo.23495004) (this DOI always opens the latest version; see How to cite at the end).
 
 **The paper:** [`paper/abramelin-word-squares.pdf`](paper/abramelin-word-squares.pdf) (working
 paper: abstract, method, results, discussion and references; built from
