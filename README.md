@@ -1,5 +1,7 @@
 # The Abramelin word squares: do symmetry breaks find copying slips?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23495004.svg)](https://doi.org/10.5281/zenodo.23495004)
+
 The *Book of Abramelin*, or *Des Abraham von Worms Buch der wahren Praktik von der alten Magie*,
 is a German book of magic written between about 1595 and 1609; it survives in many later hand
 copies. Its fourth book holds about 250 squares of capital letters, each for a
@@ -23,7 +25,7 @@ toward".
 
 October 2026. CPU only; Python with numpy and scipy. The analysis reruns in about five minutes.
 
-**Archived on Zenodo** with its paper, code, data and results: doi:10.5281/zenodo.XXXXXXXX
+**Archived on Zenodo** with its paper, code, data and results: [doi:10.5281/zenodo.23495004](https://doi.org/10.5281/zenodo.23495004)
 (to be added when the first release is archived; see How to cite at the end).
 
 **The paper:** [`paper/abramelin-word-squares.pdf`](paper/abramelin-word-squares.pdf) (working
@@ -416,5 +418,5 @@ API client and is not included.
 ## How to cite
 
 Burford, B. (2026). The Abramelin word squares: do symmetry breaks find copying slips?
-(version 1.0). Zenodo. doi:10.5281/zenodo.XXXXXXXX (to be added).
+(version 1.0). Zenodo. https://doi.org/10.5281/zenodo.23495004 (this DOI always opens the latest version).
 Source: https://github.com/BravoBravoIX/abramelin-word-squares
