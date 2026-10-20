@@ -1,0 +1,23 @@
+{
+ "what": "Eye checks of witness L (Leipzig UB Cod. mag. 15) against the page images, by the Claude Code session, 20 Oct 2026 (PREREG.md, transcription rules)",
+ "flagged_cells": {
+  "rule": "every L cell that was a predicted slip with L as source, or differed from the source witness at a predicted slip with L held out, in the first (uncorrected) run: 59 cells on 36 pages",
+  "confirmed_as_read": 43,
+  "corrected_clear_misreading": {"L070 (0,3)": "A -> H", "L020 (4,1)": "T -> I (I-form with mid-bar)", "L114 (0,2)": "L -> K", "L132 (0,4)": "L -> K (K written over L)", "L210 (5,3)": "O -> L"},
+  "set_unreadable": {"L007 (6,2)": "C/O glyph", "L119 (0,1)": "I/T form", "L167 (6,2)": "I/T form", "L174 (1,4)": "I/T form", "L204 (4,1)": "blotted row", "L206 (1,8)": "I/T form", "L206 (5,8)": "I/T form", "L209 (6,2)": "I/T form", "L210 (6,3)": "I/T form", "L232 (4,6)": "layout too skewed to read the row with confidence", "L251 (2,5)": "I/T form"},
+  "pages_read_by_eye_in_full": {"p069": "API reader refused the page; 3 squares transcribed by eye", "p070": "API reader refused the page; 3 squares transcribed by eye"}
+ },
+ "random_audit": {
+  "pages": ["p028", "p041", "p059", "p062", "p086"],
+  "draw": "random.Random(20261020).sample of pages p001-p090 without p069/p070",
+  "cells_checked": 594,
+  "clear_misreadings": 0,
+  "ambiguous_cells": "about 8, all the scribe's I/T/F capital forms (I drawn as J with a crossbar, T as J with a top bar; often indistinguishable)"
+ },
+ "observations": [
+  "A later hand corrected letters in black ink in several squares (e.g. p010, p021, p059, p075): the final letter is transcribed.",
+  "Annotations 'pertinet ad num: 4/3' (p023) show a reader noticed two squares in the wrong place.",
+  "p030: square '3. Allerley artzneiische Bücher' is struck through by the scribe (non-square reading, excluded).",
+  "Several squares have a first row one letter longer than the square (p015 NESCHER in a 6x6, p020, p052): excluded as non-square, as fixed in advance."
+ ]
+}

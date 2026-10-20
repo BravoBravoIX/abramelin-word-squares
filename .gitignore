@@ -1,0 +1,7 @@
+# Third-party sources (scripts/fetch_sources.sh) and everything rebuilt from them by
+# code/run_all.sh that may not be redistributed (Kollatsch's squares as parsed)
+sources/downloads/
+work/
+__pycache__/
+*.part
+.ruff_cache/

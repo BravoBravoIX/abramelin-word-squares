@@ -1,0 +1,1108 @@
+{
+ "prereg": "PREREG.md v1.0",
+ "seed": 20261020,
+ "fold_i_j_u_v": true,
+ "fold_i_t_post_hoc": true,
+ "matches": {
+  "W1-L": 241,
+  "W1-M": 209,
+  "L-M": 199
+ },
+ "unmatched_W1_vs_L": [
+  "12.2",
+  "13.2",
+  "14.7",
+  "15.3",
+  "17.6",
+  "18.1",
+  "19.3",
+  "19.5",
+  "20.12",
+  "20.6",
+  "21.6",
+  "22.5",
+  "27.31",
+  "5.8",
+  "6.3",
+  "9.1"
+ ],
+ "unmatched_L_vs_W1": [
+  "L055",
+  "L074",
+  "L081",
+  "L087",
+  "L096",
+  "L126",
+  "L155",
+  "L164",
+  "L186"
+ ],
+ "tests": {
+  "W1->L": {
+   "source": "W1",
+   "held_out": "L",
+   "matched_squares": 241,
+   "B1": {
+    "predicted_slips": 2,
+    "held_out_differs": 2,
+    "rate": 1.0,
+    "control_cells": 8084,
+    "control_differs": 833,
+    "control_rate": 0.10304304799604157,
+    "odds_ratio": Infinity,
+    "p": 0.010652186582365728,
+    "p_holm": 0.010652186582365728
+   },
+   "B2": {
+    "differs": 2,
+    "held_out_has_symmetric_reading": 1,
+    "expected_by_chance": 0.32908163265306123,
+    "p": 0.3035714285714286
+   },
+   "B3": {
+    "two_cell_breaks": 35,
+    "held_out_symmetric": 19,
+    "control_two_cell_orbits": 2088,
+    "control_symmetric": 1847,
+    "chance_expected": 4.476343380182819
+   },
+   "precision": 0.5,
+   "recall": 0.05125628140703518,
+   "differences_in_symmetric_squares": 995,
+   "items": [
+    {
+     "x": "29.1",
+     "y": "L249",
+     "cell": [
+      6,
+      3
+     ],
+     "y_letter": "o",
+     "x_letter": null,
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "27.5",
+     "y": "L210",
+     "cell": [
+      3,
+      4
+     ],
+     "y_letter": "o",
+     "x_letter": null,
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    }
+   ]
+  },
+  "L->W1": {
+   "source": "L",
+   "held_out": "W1",
+   "matched_squares": 241,
+   "B1": {
+    "predicted_slips": 44,
+    "held_out_differs": 37,
+    "rate": 0.8409090909090909,
+    "control_cells": 7340,
+    "control_differs": 650,
+    "control_rate": 0.0885558583106267,
+    "odds_ratio": 54.402197802197804,
+    "p": 5.763474889854486e-32,
+    "p_holm": 2.3053899559417944e-31
+   },
+   "B2": {
+    "differs": 37,
+    "held_out_has_symmetric_reading": 32,
+    "expected_by_chance": 5.391171894683799,
+    "p": 7.699059923618418e-25
+   },
+   "B3": {
+    "two_cell_breaks": 94,
+    "held_out_symmetric": 82,
+    "control_two_cell_orbits": 1946,
+    "control_symmetric": 1707,
+    "chance_expected": 13.041127734176012
+   },
+   "precision": 0.7272727272727273,
+   "recall": 0.236784140969163,
+   "differences_in_symmetric_squares": 908,
+   "items": [
+    {
+     "x": "L226",
+     "y": "27.22",
+     "cell": [
+      2,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "o",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L105",
+     "y": "16.5",
+     "cell": [
+      6,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "i",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L084",
+     "y": "14.1",
+     "cell": [
+      4,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "a",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L218",
+     "y": "27.14",
+     "cell": [
+      4,
+      8
+     ],
+     "y_letter": null,
+     "x_letter": "b",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L028",
+     "y": "5.1",
+     "cell": [
+      2,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L225",
+     "y": "27.20",
+     "cell": [
+      5,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "h",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L206",
+     "y": "27.2",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "h",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L206",
+     "y": "27.2",
+     "cell": [
+      5,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "o",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L206",
+     "y": "27.2",
+     "cell": [
+      6,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L053",
+     "y": "8.4",
+     "cell": [
+      1,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "b",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L043",
+     "y": "6.6",
+     "cell": [
+      0,
+      2
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L231",
+     "y": "27.27",
+     "cell": [
+      2,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "a",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L136",
+     "y": "18.10",
+     "cell": [
+      1,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "i",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L209",
+     "y": "27.6",
+     "cell": [
+      6,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "n",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L178",
+     "y": "21.2",
+     "cell": [
+      4,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "g",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L178",
+     "y": "21.2",
+     "cell": [
+      4,
+      2
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L178",
+     "y": "21.2",
+     "cell": [
+      4,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "l",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L243",
+     "y": "27.39",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "l",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L159",
+     "y": "20.3",
+     "cell": [
+      6,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "a",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L068",
+     "y": "10.7",
+     "cell": [
+      1,
+      8
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L068",
+     "y": "10.7",
+     "cell": [
+      3,
+      7
+     ],
+     "y_letter": null,
+     "x_letter": "s",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L068",
+     "y": "10.7",
+     "cell": [
+      5,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "s",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L068",
+     "y": "10.7",
+     "cell": [
+      2,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "u",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L068",
+     "y": "10.7",
+     "cell": [
+      6,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "u",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L037",
+     "y": "5.11",
+     "cell": [
+      0,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "p",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L037",
+     "y": "5.11",
+     "cell": [
+      4,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "f",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L154",
+     "y": "19.17",
+     "cell": [
+      3,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "r",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L008",
+     "y": "1.8",
+     "cell": [
+      6,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "i",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L008",
+     "y": "1.8",
+     "cell": [
+      6,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L008",
+     "y": "1.8",
+     "cell": [
+      5,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "g",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L019",
+     "y": "4.1",
+     "cell": [
+      5,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "m",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L223",
+     "y": "27.21",
+     "cell": [
+      1,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L161",
+     "y": "20.4",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "a",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L077",
+     "y": "12.4",
+     "cell": [
+      4,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "f",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L120",
+     "y": "16.19",
+     "cell": [
+      6,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "r",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L058",
+     "y": "9.4",
+     "cell": [
+      6,
+      2
+     ],
+     "y_letter": null,
+     "x_letter": "s",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L236",
+     "y": "27.32",
+     "cell": [
+      1,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "u",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L049",
+     "y": "7.1",
+     "cell": [
+      3,
+      1
+     ],
+     "y_letter": null,
+     "x_letter": "f",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L254",
+     "y": "30.3",
+     "cell": [
+      0,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "i",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L092",
+     "y": "14.9",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": null,
+     "x_letter": "l",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L092",
+     "y": "14.9",
+     "cell": [
+      3,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "r",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L092",
+     "y": "14.9",
+     "cell": [
+      3,
+      4
+     ],
+     "y_letter": null,
+     "x_letter": "i",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L060",
+     "y": "9.6",
+     "cell": [
+      3,
+      6
+     ],
+     "y_letter": null,
+     "x_letter": "h",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L060",
+     "y": "9.6",
+     "cell": [
+      3,
+      5
+     ],
+     "y_letter": null,
+     "x_letter": "i",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    }
+   ]
+  },
+  "L->M": {
+   "source": "L",
+   "held_out": "M",
+   "matched_squares": 199,
+   "B1": {
+    "predicted_slips": 15,
+    "held_out_differs": 12,
+    "rate": 0.8,
+    "control_cells": 3323,
+    "control_differs": 475,
+    "control_rate": 0.1429431236834186,
+    "odds_ratio": 23.98315789473684,
+    "p": 2.464540078096831e-08,
+    "p_holm": 7.393620234290493e-08
+   },
+   "B2": {
+    "differs": 12,
+    "held_out_has_symmetric_reading": 8,
+    "expected_by_chance": 1.711722356958978,
+    "p": 8.876640914775468e-06
+   },
+   "B3": {
+    "two_cell_breaks": 29,
+    "held_out_symmetric": 25,
+    "control_two_cell_orbits": 687,
+    "control_symmetric": 635,
+    "chance_expected": 5.637094431716691
+   },
+   "precision": 0.5333333333333333,
+   "recall": 0.14355628058727568,
+   "differences_in_symmetric_squares": 613,
+   "items": [
+    {
+     "x": "L136",
+     "y": "18.8",
+     "cell": [
+      1,
+      0
+     ],
+     "y_letter": "l",
+     "x_letter": "i",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L243",
+     "y": "20.34",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": "i",
+     "x_letter": "l",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L043",
+     "y": "6.6",
+     "cell": [
+      0,
+      2
+     ],
+     "y_letter": "k",
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L053",
+     "y": "8.4",
+     "cell": [
+      1,
+      1
+     ],
+     "y_letter": "b",
+     "x_letter": "b",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L008",
+     "y": "2.3",
+     "cell": [
+      6,
+      3
+     ],
+     "y_letter": "i",
+     "x_letter": "i",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L008",
+     "y": "2.3",
+     "cell": [
+      6,
+      1
+     ],
+     "y_letter": "u",
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L008",
+     "y": "2.3",
+     "cell": [
+      5,
+      3
+     ],
+     "y_letter": "s",
+     "x_letter": "g",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L019",
+     "y": "4.1",
+     "cell": [
+      5,
+      0
+     ],
+     "y_letter": "n",
+     "x_letter": "m",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L058",
+     "y": "9.3",
+     "cell": [
+      6,
+      2
+     ],
+     "y_letter": "s",
+     "x_letter": "s",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L092",
+     "y": "14.10",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": "r",
+     "x_letter": "l",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L037",
+     "y": "5.11",
+     "cell": [
+      0,
+      4
+     ],
+     "y_letter": "f",
+     "x_letter": "p",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L037",
+     "y": "5.11",
+     "cell": [
+      4,
+      4
+     ],
+     "y_letter": "k",
+     "x_letter": "f",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L161",
+     "y": "20.5",
+     "cell": [
+      2,
+      0
+     ],
+     "y_letter": "s",
+     "x_letter": "a",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "L178",
+     "y": "20.2b",
+     "cell": [
+      4,
+      0
+     ],
+     "y_letter": "k",
+     "x_letter": "g",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "L178",
+     "y": "20.2b",
+     "cell": [
+      4,
+      2
+     ],
+     "y_letter": "q",
+     "x_letter": "c",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    }
+   ]
+  },
+  "M->L": {
+   "source": "M",
+   "held_out": "L",
+   "matched_squares": 199,
+   "B1": {
+    "predicted_slips": 5,
+    "held_out_differs": 4,
+    "rate": 0.8,
+    "control_cells": 2416,
+    "control_differs": 389,
+    "control_rate": 0.16100993377483444,
+    "odds_ratio": 20.84318766066838,
+    "p": 0.0029862635736502448,
+    "p_holm": 0.0059725271473004896
+   },
+   "B2": {
+    "differs": 4,
+    "held_out_has_symmetric_reading": 3,
+    "expected_by_chance": 0.6122448979591837,
+    "p": 0.011040797418679324
+   },
+   "B3": {
+    "two_cell_breaks": 8,
+    "held_out_symmetric": 6,
+    "control_two_cell_orbits": 609,
+    "control_symmetric": 544,
+    "chance_expected": 1.223235386490197
+   },
+   "precision": 0.6,
+   "recall": 0.03621730382293763,
+   "differences_in_symmetric_squares": 497,
+   "items": [
+    {
+     "x": "18.10",
+     "y": "L137",
+     "cell": [
+      4,
+      6
+     ],
+     "y_letter": "g",
+     "x_letter": "k",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "1.5",
+     "y": "L006",
+     "cell": [
+      4,
+      3
+     ],
+     "y_letter": "e",
+     "x_letter": "r",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "9.5",
+     "y": "L059",
+     "cell": [
+      5,
+      3
+     ],
+     "y_letter": "a",
+     "x_letter": "r",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "9.5",
+     "y": "L059",
+     "cell": [
+      5,
+      2
+     ],
+     "y_letter": "r",
+     "x_letter": "e",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "18.3",
+     "y": "L128",
+     "cell": [
+      5,
+      6
+     ],
+     "y_letter": "n",
+     "x_letter": "n",
+     "y_differs": false,
+     "y_is_symmetric_reading": false
+    }
+   ]
+  },
+  "W1->M": {
+   "source": "W1",
+   "held_out": "M",
+   "matched_squares": 209,
+   "B1": {
+    "predicted_slips": 1,
+    "held_out_differs": 1,
+    "rate": 1.0,
+    "control_cells": 3745,
+    "control_differs": 355,
+    "control_rate": 0.09479305740987984,
+    "odds_ratio": Infinity,
+    "p": 0.09503470368392952
+   },
+   "B2": {
+    "differs": 1,
+    "held_out_has_symmetric_reading": 1,
+    "expected_by_chance": 0.12244897959183673,
+    "p": 0.12244897959183673
+   },
+   "B3": {
+    "two_cell_breaks": 6,
+    "held_out_symmetric": 5,
+    "control_two_cell_orbits": 833,
+    "control_symmetric": 816,
+    "chance_expected": 0.824446875
+   },
+   "precision": 1.0,
+   "recall": 0.03800475059382423,
+   "differences_in_symmetric_squares": 421,
+   "items": [
+    {
+     "x": "27.5",
+     "y": "20.4bbbbbb",
+     "cell": [
+      3,
+      4
+     ],
+     "y_letter": "o",
+     "x_letter": null,
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    }
+   ]
+  },
+  "M->W1": {
+   "source": "M",
+   "held_out": "W1",
+   "matched_squares": 209,
+   "B1": {
+    "predicted_slips": 5,
+    "held_out_differs": 5,
+    "rate": 1.0,
+    "control_cells": 2471,
+    "control_differs": 232,
+    "control_rate": 0.09388911371914205,
+    "odds_ratio": Infinity,
+    "p": 7.732178441060566e-06
+   },
+   "B2": {
+    "differs": 5,
+    "held_out_has_symmetric_reading": 3,
+    "expected_by_chance": 0.6495535714285714,
+    "p": 0.01641538667163012
+   },
+   "B3": {
+    "two_cell_breaks": 8,
+    "held_out_symmetric": 5,
+    "control_two_cell_orbits": 627,
+    "control_symmetric": 605,
+    "chance_expected": 1.1874375481409496
+   },
+   "precision": 0.6,
+   "recall": 0.05787781350482315,
+   "differences_in_symmetric_squares": 311,
+   "items": [
+    {
+     "x": "18.10",
+     "y": "18.11",
+     "cell": [
+      4,
+      6
+     ],
+     "y_letter": null,
+     "x_letter": "k",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "1.5",
+     "y": "1.6",
+     "cell": [
+      4,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "r",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    },
+    {
+     "x": "18.3",
+     "y": "18.2",
+     "cell": [
+      5,
+      6
+     ],
+     "y_letter": null,
+     "x_letter": "n",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "9.5",
+     "y": "9.5",
+     "cell": [
+      5,
+      3
+     ],
+     "y_letter": null,
+     "x_letter": "r",
+     "y_differs": true,
+     "y_is_symmetric_reading": false
+    },
+    {
+     "x": "9.5",
+     "y": "9.5",
+     "cell": [
+      5,
+      2
+     ],
+     "y_letter": null,
+     "x_letter": "e",
+     "y_differs": true,
+     "y_is_symmetric_reading": true
+    }
+   ]
+  }
+ }
+}

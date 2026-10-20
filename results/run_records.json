@@ -1,0 +1,58 @@
+{
+ "what": "Records of the original runs, kept out of the results files so that a rerun rebuilds those byte for byte",
+ "preregistration": {
+  "file": "PREREG.md",
+  "sha256": "ae4180297fac5288f920570f31877e07bdeca8456ed28d4ffaf9bfeb96639935",
+  "committed": "2026-10-20T07:12:58Z",
+  "commit": "eb1d554676cae382b3738049e638f032eb62875a",
+  "note": "commit of the author's private working repository; readers cannot check this timing"
+ },
+ "transcription_L": {
+  "file": "data/L_read.json",
+  "reader": "Claude API (Anthropic), model claude-opus-5-5, seed 20261020, one page image per call",
+  "pages": 91,
+  "pages_declined_by_reader_and_read_by_eye": [
+   "p069",
+   "p070"
+  ],
+  "cost_usd": 3.97,
+  "code_commit": "eb1d554676cae382b3738049e638f032eb62875a (private working repository; the reading script used the author's private API client and is not published)",
+  "eye_checks": "data/eyecheck.json; corrections applied from data/L_corrections.json"
+ },
+ "analysis": {
+  "code_commit": "b17c974e81f657866121dd99b6bf5ae6a99f1e30",
+  "note": "the original results files carried this commit of the private working repository in a code_commit field; the public code/analyse.py no longer writes it. With that one line removed, the original files equal the files published here byte for byte",
+  "results_committed": "2026-10-20T08:06:01Z (private commit eaa607e)",
+  "environment": "Python 3.13.14, numpy 2.5.4, scipy 1.18.1, pdftotext (poppler) 24.02.0, Linux x86_64",
+  "runs": {
+   "primary": "code/analyse.py WORK/w1_squares.json",
+   "nofold": "--nofold (pre-registered secondary)",
+   "foldit": "--fold-it (post hoc)"
+  }
+ },
+ "first_run_before_eye_check_corrections": {
+  "source": "log of the first run on the uncorrected L transcription (20 October 2026, 07:46 UTC); its flagged L cells are the 59 cells eye-checked; not rerun here",
+  "L->M": {
+   "predicted_slips": 17,
+   "held_out_differs": 14
+  },
+  "L->W1": {
+   "predicted_slips": 53,
+   "held_out_differs": 47
+  },
+  "M->L": {
+   "predicted_slips": 5,
+   "held_out_differs": 4
+  },
+  "W1->L": {
+   "predicted_slips": 2,
+   "held_out_differs": 2
+  },
+  "note": "the corrections made the Test B result weaker, not stronger"
+ },
+ "public_rerun": {
+  "date": "2026-10-20",
+  "from": "scripts/fetch_sources.sh into an empty folder, then code/run_all.sh",
+  "result": "W1 parse equal to the original private parse; data/m_squares.json and all nine results files rebuilt byte for byte"
+ }
+}
