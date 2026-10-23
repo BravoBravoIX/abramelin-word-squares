@@ -1,11 +1,11 @@
 {
- "what": "Eye checks of witness L (Leipzig UB Cod. mag. 15) against the page images, by the Claude Code session, 20 Oct 2026 (PREREG.md, transcription rules)",
+ "what": "Checks by Claude of witness L (Leipzig UB Cod. mag. 15) against the page images, 20 Oct 2026 (PREREG.md, transcription rules)",
  "flagged_cells": {
   "rule": "every L cell that was a predicted slip with L as source, or differed from the source witness at a predicted slip with L held out, in the first (uncorrected) run: 59 cells on 36 pages",
   "confirmed_as_read": 43,
   "corrected_clear_misreading": {"L070 (0,3)": "A -> H", "L020 (4,1)": "T -> I (I-form with mid-bar)", "L114 (0,2)": "L -> K", "L132 (0,4)": "L -> K (K written over L)", "L210 (5,3)": "O -> L"},
   "set_unreadable": {"L007 (6,2)": "C/O glyph", "L119 (0,1)": "I/T form", "L167 (6,2)": "I/T form", "L174 (1,4)": "I/T form", "L204 (4,1)": "blotted row", "L206 (1,8)": "I/T form", "L206 (5,8)": "I/T form", "L209 (6,2)": "I/T form", "L210 (6,3)": "I/T form", "L232 (4,6)": "layout too skewed to read the row with confidence", "L251 (2,5)": "I/T form"},
-  "pages_read_by_eye_in_full": {"p069": "API reader refused the page; 3 squares transcribed by eye", "p070": "API reader refused the page; 3 squares transcribed by eye"}
+  "pages_read_by_eye_in_full": {"p069": "API reader refused the page; 3 squares transcribed by Claude from the image", "p070": "API reader refused the page; 3 squares transcribed by Claude from the image"}
  },
  "random_audit": {
   "pages": ["p028", "p041", "p059", "p062", "p086"],

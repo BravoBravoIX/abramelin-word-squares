@@ -85,7 +85,7 @@ def load_l(fold=True, path=None):
     for k, s in enumerate(seq, start=1):
         label = f"L{k:03d}"
         rows = s["rows"]
-        for key, val in fixes.get(label, {}).items():  # "r,c": letter (eye-checked)
+        for key, val in fixes.get(label, {}).items():  # "r,c": letter (checked against the image)
             r, c = map(int, key.split(","))
             rows[r][c] = val
         out[label] = {"grid": ngrid(rows, fold), "heading": s["heading"], "pages": s["pages"]}

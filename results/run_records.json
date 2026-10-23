@@ -17,7 +17,7 @@
   ],
   "cost_usd": 3.97,
   "code_commit": "eb1d554676cae382b3738049e638f032eb62875a (private working repository; the reading script used the author's private API client and is not published)",
-  "eye_checks": "data/eyecheck.json; corrections applied from data/L_corrections.json"
+  "eye_checks": "data/eyecheck.json (Claude's checks against the page images); corrections applied from data/L_corrections.json"
  },
  "analysis": {
   "code_commit": "b17c974e81f657866121dd99b6bf5ae6a99f1e30",
@@ -31,7 +31,7 @@
   }
  },
  "first_run_before_eye_check_corrections": {
-  "source": "log of the first run on the uncorrected L transcription (20 October 2026, 07:46 UTC); its flagged L cells are the 59 cells eye-checked; not rerun here",
+  "source": "log of the first run on the uncorrected L transcription (20 October 2026, 07:46 UTC); its flagged L cells are the 59 cells Claude checked against the images; not rerun here",
   "L->M": {
    "predicted_slips": 17,
    "held_out_differs": 14

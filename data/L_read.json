@@ -3,7 +3,6 @@
  "run": "abramelin-L-squares-2026-10-20",
  "seed": 20261020,
  "model": "claude-opus-5-5",
- "prompt": "This is one page of an 18th-century German manuscript (a copy of the Book of Abraham of Worms, book IV). It contains letter squares: grids of capital letters, each usually under a small heading (a number and a few German words). Chapter titles in German may also appear.\n\nTranscribe every letter square on the page, top to bottom (and left to right if two stand side by side), including squares that run on from the previous page or continue on the next page (give the rows that are on this page).\n\nRules:\n- Copy each letter exactly as written. Do NOT correct anything. Do NOT make a square symmetric or make rows read as words. These squares often contain copying slips; we need the slips exactly as they stand.\n- One cell = one letter. Write a cell as the single letter you see (use I for I/J forms and V for U/V forms only if you truly cannot tell; otherwise write what you see). Use \"?\" for a letter you cannot read, and \"_\" for an empty cell.\n- If a letter has been corrected by the scribe (written over, struck through), give the final letter and list it in \"notes\".\n- heading: the short heading text written above that square (number and words), as best you can read it, or \"\" if none.\n\nAnswer only with JSON of the form:\n{\"squares\": [{\"heading\": \"...\", \"rows\": [[\"M\",\"I\",\"L\",\"O\",\"N\"], ...], \"notes\": \"...\"}], \"page_notes\": \"...\"}",
  "prompt_sha256": "ef59fb4a2574352063efdc2ecdb966c15196ef57ec1e87490dbdd6e6cf79e4de",
  "code_commit": "eb1d554676cae382b3738049e638f032eb62875a",
  "pages": {
@@ -12239,7 +12238,7 @@
         "T"
        ]
       ],
-      "notes": "transcribed by eye in session (API reader refused the page)"
+      "notes": "transcribed by Claude from the page image (API reader refused the page)"
      },
      {
       "heading": "6. An den Halß erkrancken",
@@ -12308,7 +12307,7 @@
         "G"
        ]
       ],
-      "notes": "transcribed by eye in session (API reader refused the page)"
+      "notes": "transcribed by Claude from the page image (API reader refused the page)"
      },
      {
       "heading": "1. Ein Hauß einzuwerffen",
@@ -12349,10 +12348,10 @@
         "L"
        ]
       ],
-      "notes": "transcribed by eye in session (API reader refused the page)"
+      "notes": "transcribed by Claude from the page image (API reader refused the page)"
      }
     ],
-    "page_notes": "manual (session eye reading, 20 Oct 2026)"
+    "page_notes": "read by Claude from the page image, 20 Oct 2026"
    },
    "raw": "",
    "meta": {
@@ -12436,7 +12435,7 @@
         "P"
        ]
       ],
-      "notes": "transcribed by eye in session (API reader refused the page)"
+      "notes": "transcribed by Claude from the page image (API reader refused the page)"
      },
      {
       "heading": "3. Dächer an häusern abwerffen",
@@ -12477,7 +12476,7 @@
         "G"
        ]
       ],
-      "notes": "transcribed by eye in session (API reader refused the page)"
+      "notes": "transcribed by Claude from the page image (API reader refused the page)"
      },
      {
       "heading": "4. Gantze gebäude einwerffen",
@@ -12531,10 +12530,10 @@
         "M"
        ]
       ],
-      "notes": "transcribed by eye in session (API reader refused the page)"
+      "notes": "transcribed by Claude from the page image (API reader refused the page)"
      }
     ],
-    "page_notes": "manual (session eye reading, 20 Oct 2026)"
+    "page_notes": "read by Claude from the page image, 20 Oct 2026"
    },
    "raw": "",
    "meta": {

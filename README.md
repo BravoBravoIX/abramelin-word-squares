@@ -89,16 +89,15 @@ W1–M 209, L–M 194 (`results/census.json`, `matches`).
 
 **How L was read.** Each of the 91 page images was read by Claude (Anthropic's API, model
 `claude-opus-5-5`, seed 20261020, one page per call), told to copy every letter exactly and
-never to correct anything towards a pattern or a symmetry. The prompt, the model's answer for
+never to correct anything towards a pattern or a symmetry. The model's answer for
 each page and the SHA-256 of each image are kept in `data/L_read.json`; the reading cost
-3.97 US dollars. The API reader declined two pages (p069 and p070); those six squares were read
-by eye. Then, as the pre-registration requires, every L cell that counted in Test B was checked
+3.97 US dollars. The API reader declined two pages (p069 and p070); Claude read those six squares
+from the page images. Then, as the pre-registration requires, every L cell that counted in Test B was checked
 against the page image: 59 cells, of which 43 stood as read, 5 were corrected (clear misreadings)
 and 11 were set to unreadable, mostly the scribe's I and T capitals, which look almost alike
 (`data/L_corrections.json`, `data/eyecheck.json`). Five pages chosen at random (594 cells) were
-checked cell by cell: no clear misreading, about 8 ambiguous I/T/F forms. These eye checks were
-made by the AI coding assistant (Claude, in a Claude Code session) looking at the page images,
-not by a palaeographer. L gives 255 squares, of which 250 are square-shaped and enter the tests
+checked cell by cell: no clear misreading, about 8 ambiguous I/T/F forms. Claude made these
+checks against the page images. L gives 255 squares, of which 250 are square-shaped and enter the tests
 (the other 5 are not square as read, for example a first row one letter longer than the
 square, and are left out).
 
@@ -163,9 +162,17 @@ shared-slip score was computed on any copy (only square counts and sizes had bee
 was committed on 20 October 2026 at 07:12 UTC as commit `eb1d554` of the author's private
 working repository, and is reproduced here unchanged (SHA-256
 `ae4180297fac5288f920570f31877e07bdeca8456ed28d4ffaf9bfeb96639935`). Readers cannot check this
-timing, since that repository is private. Its references to `docs/occult-plan.md`, a decision
-number and `hunter/transcribe/remote.py` point into that repository (the plan of the wider
-programme and the API client used to read L); neither is needed here.
+timing, since that repository is private. Its references to the plan of the wider programme, a
+decision number and the API client used to read L point into that repository; none is needed
+here. Where it speaks of eye
+checks, these are Claude's checks against the page images.
+
+**How AI was used.** The 91 Leipzig page images were read by Claude (Anthropic, model Opus 5.5)
+in one pass, one page per call. Claude also read the two pages the model declined (p069, p070)
+and checked every L cell that counted in Test B against the page images: of 59 cells, 43 stood
+as read, 5 were corrected and 11 were set to unreadable; on five random pages (594 cells) it
+found no clear misreading (`data/eyecheck.json`). An AI coding assistant (Claude Code) was used. The analysis reruns without any AI service; Claude's
+readings are stored as data.
 
 ## 4. Results
 
@@ -234,12 +241,12 @@ allows. With three copies this ranks the pairs; it is not a family tree.
 
 - **No i/j, u/v folding** (pre-registered secondary): the same picture. L → M 9 of 12 against
   16.0 % (Holm p 3.0e-5); W1–L 8 shared against 0.91, W1–M 7 against 0.38, L–M 3 against 0.98.
-- **I and T folded** (post hoc, added after the eye checks showed how alike L's I and T are;
+- **I and T folded** (post hoc, added after the image checks showed how alike L's I and T are;
   labelled as such): L → M 12 of 15 against 14.3 % (Holm p 7.4e-8), predicted letter 8 times
   against 1.71; M → L 4 of 5; W1–L 8 shared against 0.96, W1–M 7 against 0.39, L–M 4 against
   1.59 (p 0.067). The pre-registered numbers above are the primary ones.
 
-### Other observations about L (descriptive, from the eye checks)
+### Other observations about L (descriptive, from Claude's image checks)
 
 - L's scribe writes capital I as a J with a cross-stroke and T as a J with a top bar; they are
   often hard to tell apart. Most cells set to unreadable are such forms.
@@ -308,11 +315,11 @@ not be reached; 20 October 2026):
    seen W1 itself (no images are online). If some cells of the figures follow from symmetry
    by construction, W1's census figures overstate the scribe's own symmetry. This is why the
    clean evidence for Test B is L against M.
-2. **L was read by a model and checked by an AI assistant.** The reader was told not to correct,
-   and the eye checks covered every cell that counted in Test B and five random pages, with
+2. **L was read and checked by Claude.** The reader was told not to correct,
+   and the checks against the images covered every cell that counted in Test B and five random pages, with
    corrections that made the result weaker, not stronger (before them, L → M had 14 of 17
    flagged cells differing; `results/run_records.json`).
-   But no palaeographer has checked the transcription, and I/T remains uncertain in places.
+   The transcription awaits a palaeographer's reading, and I/T remains uncertain in places.
 3. **Mathers is a translation's printed squares, retyped.** M is a 1999 typesetting of the 1900
    edition, not the Arsenal manuscript, and many squares are partly empty. Its slips may be
    Mathers's, his printer's or the 1999 typesetter's, as well as the French copyists'.
@@ -321,8 +328,8 @@ not be reached; 20 October 2026):
    four transcribed copies. The candidates are the Dresden copies (SLUB Mscr.Dresd.N.111 and
    N.161), the Arsenal manuscript itself, W1's images and W3 (Wolfenbüttel Cod. Guelf. 10.1 b
    Aug. 2°, said to be the source of the French), and Wellcome MS 820 and 821 (not digitised).
-5. **Deviations from the pre-registration.** The I/T-folded run was added after the eye checks
-   and is labelled post hoc. The cells eye-checked were those flagged by the first, uncorrected
+5. **Deviations from the pre-registration.** The I/T-folded run was added after the image checks
+   and is labelled post hoc. The cells checked against the images were those flagged by the first, uncorrected
    run; cells that became flagged only after the corrections were not checked one by one (they
    fall under the random audit's error rate).
 6. **The half-turn observation** was noticed after the results and is not a tested claim.
@@ -355,7 +362,7 @@ results files hold no machine- or time-dependent fields; the commit of the origi
 `results/run_records.json`.
 
 **Not rerun:** the reading of L by the Claude API. Its answers are recorded data
-(`data/L_read.json`), with the prompt, model, seed and per-page cost; the eye-check corrections
+(`data/L_read.json`), with the model, seed and per-page cost; the corrections from the image checks
 are applied from `data/L_corrections.json`. The reading script depended on the author's private
 API client and is not included.
 
@@ -366,7 +373,7 @@ API client and is not included.
   CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). `data/L_read.json` and
   `data/L_corrections.json` are our transcription of a public-domain manuscript;
   `data/m_squares.json` is our parse of Mathers's public-domain edition;
-  `data/eyecheck.json` is the log of the eye checks.
+  `data/eyecheck.json` is the log of Claude's checks against the page images.
 
 **Left out, and why:**
 - **Kollatsch's figures of the W1 squares** (CC BY-NC-ND 4.0): the licence does not allow
@@ -379,7 +386,7 @@ API client and is not included.
 - **Dehn's edition**: copyright; not used.
 - **Page images**: none are included; the Leipzig images can be fetched (see above).
 - **The API reading script**: it called the author's private client and is not needed to rerun
-  the analysis; its prompt is recorded in `data/L_read.json`.
+  the analysis. The prompt is not included; its SHA-256 is recorded in `data/L_read.json`.
 
 ## References
 
@@ -412,10 +419,11 @@ API client and is not included.
 
 ## Versions
 
+- **1.0.1** (21 October 2026): documentation update: a "How AI was used" section, tidier wording, files not needed to check the results removed. Results and data unchanged.
 - **1.0** (20 October 2026): Tests A, B and C on W1, L and M; the L transcription; the paper.
 
 ## How to cite
 
 Burford, B. (2026). The Abramelin word squares: do symmetry breaks find copying slips?
-(version 1.0). Zenodo. https://doi.org/10.5281/zenodo.23495004 (this DOI always opens the latest version).
+(version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.23495004 (this DOI always opens the latest version).
 Source: https://github.com/BravoBravoIX/abramelin-word-squares
